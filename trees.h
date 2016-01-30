@@ -17,7 +17,7 @@ typedef struct bi_node_t {
 typedef struct mu_node_t {
 	int key;
 	struct mnode_t * right_sibling, *children;
-} Mu_node_t;
+} Mu_node;
 
 Bi_node *getBi_node ( int );
 Mu_node *getMu_node ( int );
