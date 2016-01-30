@@ -9,14 +9,14 @@
 
 typedef struct bi_node_t {
 	int key;
-	struct bnode_t *left, *right;
+	struct bi_node_t *left, *right;
 } Bi_node;
 
 /* This represent a node in a multiway tree*/
 
 typedef struct mu_node_t {
 	int key;
-	struct mnode_t * right_sibling, *children;
+	struct mu_node_t * right_sibling, *children;
 } Mu_node;
 
 Bi_node *getBi_node ( int );
